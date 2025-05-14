@@ -1,9 +1,9 @@
 /* fonts */
 @font-face {
-  font-family: 'Quicksand';
-  src: url('/Quicksand-Light.woff2') format('woff2'),
-    url('/Quicksand-Light.woff') format('woff');
-  font-weight: 300;
+  font-family: 'Playfair Display';
+  src: url('/PlayfairDisplay-Regular.woff2') format('woff2'),
+       url('/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -137,7 +137,7 @@ li span.active::before {
 }
 
 .modal {
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 40px 20px;
   background-color: white;
@@ -156,4 +156,13 @@ li span.active::before {
 .modal p {
   color: #444;
   font-weight: bold;
+}
+
+/* Loader */
+.loader {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 40px auto;
+  background-color: white;
 }
